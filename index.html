@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        video{
+            border-radius: 20px;
+            width: 42%;        
+            }
+            table{
+                margin: 150px;
+                border-collapse: collapse;
+            }
+            td,th{
+                padding: 5px 25px;
+                border: 1px solid black;
+            }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon">
+    <title>HTML 5</title>
+</head>
+<body>
+
+    <section class="lec_1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XOuc-oVSOnw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <audio controls src="media/dukkho.mp3"></audio>
+        <video controls src="media/videoplayback.mp4"></video>
+
+    </section>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        ID
+                    </th>
+                    <th>
+                        Section
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Rahul
+                    </td>
+                    <td>
+                        C171096
+                    </td>
+                    <td>
+                        6CM
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Sabbir
+                    </td>
+                    <td>
+                        C171076
+                    </td>
+                    <td>
+                        6CM
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mehedi
+                    </td>
+                    <td>
+                        C171078
+                    </td>
+                    <td>
+                        6CM
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <form action="">
+            <p>Name : <input type="text"></p>
+            <p>Email : <input type="email" name="" id=""></p>
+            <fieldset>
+                <legend>Select your transport</legend>
+                <p><label for="Car"><input type="radio" name="tansport" id="Car">Car</label></p>
+                <p><label for="Bike"><input type="radio" name="tansport" id="Bike">Bike</label></p>
+                <p><label for="Cycle"><input type="radio" name="tansport" id="Cycle">Cycle</label></p>
+            </fieldset><br>
+            <fieldset>
+                <legend>Select Brand</legend>
+                <p><label for="bmw"><input type="checkbox" name="" id="bmw">Bmw</label></p>
+                <p><label for="toyota"><input type="checkbox" name="" id="toyota">Toyota</label></p>
+            </fieldset><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <input type="submit" value="Submit">
+       </form>
+    </section>
+</body>
+</html>
